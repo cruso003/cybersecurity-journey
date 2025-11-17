@@ -1,0 +1,37 @@
+# Sensitive information
+**/credentials.txt
+**/passwords.txt
+**/api-keys.txt
+**/.env
+**/config.private
+
+# SSH Keys
+**/*.pem
+**/*.key
+**/id_rsa*
+
+# Scan results that might contain sensitive data
+**/nmap-results/
+**/scan-output/
+
+# Large binary files
+*.pcap
+*.cap
+*.dmp
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Notes with sensitive info (create separate private repo if needed)
+**/private-notes/
