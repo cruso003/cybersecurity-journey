@@ -35,3 +35,7 @@ env/
 
 # Notes with sensitive info (create separate private repo if needed)
 **/private-notes/
+
+.env
+.env.*
+!.env.example

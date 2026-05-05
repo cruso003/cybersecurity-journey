@@ -54,4 +54,8 @@ git push origin main
 git status
 ```
 
+# DNS Commands
+
+nslookup --type=A {subdomain}{domain}
+
 _[Will expand as I learn more commands]_
